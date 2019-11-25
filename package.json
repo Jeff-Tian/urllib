@@ -1,6 +1,6 @@
 {
   "name": "urllib-x",
-  "version": "0.0.0-development",
+  "version": "0.0.1",
   "description": "Help in opening URLs (mostly HTTP) in a complex world — basic and digest authentication, redirection, cookies and more.",
   "keywords": [
     "urllib",

@@ -1,4 +1,6 @@
-# urllib
+# urllib-x
+
+> This is forked from `node_modules/urllib`, and tweaked for some bug fixed. If the relevant PRs are accepted by upstream, then this repo will be no longer needed. 
 
 [![NPM version][npm-image]][npm-url]
 [![build status][travis-image]][travis-url]
@@ -8,26 +10,28 @@
 [![Known Vulnerabilities][snyk-image]][snyk-url]
 [![npm download][download-image]][download-url]
 
-[npm-image]: https://img.shields.io/npm/v/urllib.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/urllib
-[travis-image]: https://img.shields.io/travis/node-modules/urllib.svg?style=flat-square
-[travis-url]: https://travis-ci.org/node-modules/urllib
-[codecov-image]: https://codecov.io/gh/node-modules/urllib/branch/master/graph/badge.svg
-[codecov-url]: https://codecov.io/gh/node-modules/urllib
-[david-image]: https://img.shields.io/david/node-modules/urllib.svg?style=flat-square
-[david-url]: https://david-dm.org/node-modules/urllib
-[snyk-image]: https://snyk.io/test/npm/urllib/badge.svg?style=flat-square
-[snyk-url]: https://snyk.io/test/npm/urllib
-[download-image]: https://img.shields.io/npm/dm/urllib.svg?style=flat-square
-[download-url]: https://npmjs.org/package/urllib
+[npm-image]: https://img.shields.io/npm/v/urllib-x.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/urllib-x
+[travis-image]: https://img.shields.io/travis/jeff-tian/urllib.svg?style=flat-square
+[travis-url]: https://travis-ci.org/jeff-tian/urllib
+[codecov-image]: https://codecov.io/gh/jeff-tian/urllib/branch/master/graph/badge.svg
+[codecov-url]: https://codecov.io/gh/jeff-tian/urllib
+[david-image]: https://img.shields.io/david/jeff-tian/urllib.svg?style=flat-square
+[david-url]: https://david-dm.org/jeff-tian/urllib
+[snyk-image]: https://snyk.io/test/npm/urllib-x/badge.svg?style=flat-square
+[snyk-url]: https://snyk.io/test/npm/urllib-x
+[download-image]: https://img.shields.io/npm/dm/urllib-x.svg?style=flat-square
+[download-url]: https://npmjs.org/package/urllib-x
+
+[![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=Jeff-Tian_urllib)](https://sonarcloud.io/dashboard?id=Jeff-Tian_urllib)
 
 Request HTTP URLs in a complex world — basic
-and digest authentication, redirections, cookies, timeout and more.
+and digest authentication, redirection, cookies, timeout and more.
 
 ## Install
 
 ```bash
-$ npm install urllib --save
+$ npm install urllib-x --save
 ```
 
 ## Usage

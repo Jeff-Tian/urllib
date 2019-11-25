@@ -9,3 +9,17 @@ script:
   - npm run ci
 after_script:
   - npm i codecov && codecov
+
+jobs:
+  include:
+    # Define the release stage that runs semantic-release
+    - stage: release
+      node_js: lts/*
+      # Advanced: optionally overwrite your default `script` step to skip the tests
+      # script: skip
+      deploy:
+        branch: x
+        provider: script
+        skip_cleanup: true
+        script:
+          - npx semantic-release

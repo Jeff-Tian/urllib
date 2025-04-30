@@ -41,7 +41,7 @@
     "ee-first": "~1.1.1",
     "formstream": "^1.1.0",
     "humanize-ms": "^1.2.0",
-    "iconv-lite": "^0.4.15",
+    "iconv-lite": "^0.6.3",
     "ip": "^1.1.5",
     "proxy-agent": "^3.1.0",
     "pump": "^3.0.0",
